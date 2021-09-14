@@ -9,7 +9,7 @@ categories: tech
 
 read the code below.
 
-```{typescrpt}
+```{typescript}
 interface Foo {
     [index: string]: number
 }
@@ -18,7 +18,7 @@ let foo: Foo = { x: 1, y: 2 };
 console.log(foo['x']); // number
 ```
 
-```{typescrpt}
+```{typescript}
 interface Bar {
     [key: string]: number
 }
@@ -27,7 +27,7 @@ let bar: Bar = { x: 1, y: 2 };
 console.log(bar['x']); // number
 ```
 
-```{typescrpt}
+```{typescript}
 interface Baz {
     [random_name: string]: number
 }
